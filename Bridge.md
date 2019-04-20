@@ -54,6 +54,10 @@ You may then use Reason's MIDI input to "play" Rack via any of the Fundamental M
 
 ![Reason and VCV Bridge](images/BridgeReason.png)
 
+Additionally, you may of course assign any of the available parameter slots to any of Bridge's CC inputs to pass CV modulation data to Rack to be used through MIDI-CC or similar devices.  The "Learn" option within Reason's VST device is not usable due to the nature of VCV Bridge acting as an intermediary between Reason and VCV Rack, as Reason cannot communicate with Rack directly to observe CC parameter changes.
+
+![Pulsar modulating Fundamental VCO-1 and VCF](images/BridgeReason2.png)
+
 You may also use audio-rate signals from within Reason to VCV Rack or vice versa for a truly modular approach, but since VCV Rack and Reason do not use compatible voltage standards, you must use interpreting devices.  Pitch signals are best translated between the two using Expert Sleepers' Silent Way voice controller, which available for both [VCV Rack](https://vcvrack.com/plugins.html#expert%20sleepers%20silent) and [Reason](https://www.propellerheads.com/shop/rack-extension/silent-way-voice-controller/) as an add-on purchase.  Control signals can be interpreted bidirectionally within Reason by using Robotic Bean's CV-I (Audio to CV) and CV-O (CV to Audio) Rack Extensions, also available as a [separate purchase](https://www.propellerheads.com/shop/product_bundle/cv-io-bundle/).
 
 

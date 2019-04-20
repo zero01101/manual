@@ -50,7 +50,7 @@ Rendering notice: It was noticed, that it is impossible to render with ASIO (Pre
 ### Propellerhead Reason
 Add a VCV-Bridge or VCV-Bridge-fx from within Reason's browser or device menu to the rack.  The added device will default to receiving from Bridge port 1; you may change this by opening the CV Programmer panel on the VST rack device, setting any of the assignable parameters to the "Port" option, and changing that parameter's Base Value.  (Note that the Base Value is scaled from 0-100, not 1-16 as port selection is.)  After the Bridge device is added, open VCV Rack and ensure that the Fundamental Audio module's output is set to Bridge, and the correct Port is chosen.
 
-You may then use Reason's MIDI input to "play" Rack via any of the Fundamental MIDI devices, assuming the MIDI device is set to receive from Bridge and the appropriate Port.  You may also use Reason's CV sequencers (i.e. Matrix Pattern Sequencer) as long as the Note or CV and Gate outputs are connected to the appropriate CV and Gate inputs of the VST device in Reason's rack in the same manner.
+You may then use Reason's MIDI input to "play" Rack via any of the Fundamental MIDI devices, assuming the MIDI device is set to receive from Bridge and the appropriate Port.  You may also use Reason's CV sequencers (e.g. Matrix Pattern Sequencer) as long as the Note or CV and Gate outputs are connected to the appropriate CV and Gate inputs of the VST device in Reason's rack in the same manner.
 
 ![Reason and VCV Bridge](images/BridgeReason.png)
 
